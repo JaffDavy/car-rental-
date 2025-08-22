@@ -28,12 +28,6 @@ body {
   align-items: center;
 }
 
-#mobile-header .profile div img {
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50px;
-}
-
 .popular-cars-img img {
   width: 18rem;
   height: 15rem;
@@ -47,6 +41,12 @@ body {
 .recommended-cars-img div img {
   width: 10rem;
   height: 14rem;
+}
+
+#mobile-header .profile div img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50px;
 }
 
 .footer-head h1 {
