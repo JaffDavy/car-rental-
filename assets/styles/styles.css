@@ -1,0 +1,305 @@
+:root {
+  --primary-color: #007af3;
+  --secondary-color: #54a6ff;
+}
+
+body {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#desktop-header {
+  display: none;
+}
+
+#mobile-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  gap: 1.5rem;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#mobile-header .profile div img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50px;
+}
+
+#mobile-header .profile div h1 {
+  color: var(--primary-color);
+}
+
+.search-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-field {
+  display: flex;
+  align-items: center;
+  border: 1px solid #e7eef6;
+  padding: 0.5rem;
+  border-radius: 20px;
+  width: 15rem;
+  gap: 20px;
+}
+
+.search-menu {
+  border: 1px solid #e7eef6;
+  padding: 1rem;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+main {
+  background-color: #f6f7f9;
+  height: auto;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.hero-txt {
+  padding: 1rem;
+}
+
+.first-hero-content div img {
+  height: 10rem;
+  align-items: center;
+}
+
+.first-hero-content {
+  background-color: var(--secondary-color);
+  border-radius: 20px;
+  color: #fff;
+}
+
+button {
+  background-color: var(--primary-color);
+  padding: 1rem;
+  border-radius: 15px;
+  color: #fff;
+  border: none;
+  width: 10rem;
+  height: 4rem;
+  cursor: pointer;
+}
+
+.second-hero-content {
+  display: none;
+}
+
+.location-block {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  justify-self: center;
+}
+
+.pickup {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-field {
+  display: flex;
+  align-items: center;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.swap {
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-left: 8.5rem;
+  margin-right: 8.5rem;
+}
+
+.section4 {
+  margin: 2rem;
+}
+
+.popular-cars {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popular-cars div h4 {
+  color: #90a3bf;
+}
+
+.popular-cars div h5 {
+  color: var(--primary-color);
+}
+
+.cool-cars {
+  display: flex;
+  overflow: scroll;
+  gap: 1rem;
+}
+
+.name-genre {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  height: 2rem;
+}
+
+.pop-car-card {
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.popular-cars-img img {
+  width: 18rem;
+  height: 15rem;
+}
+
+.specification {
+  display: flex;
+  justify-content: space-around;
+}
+
+.gasolin,
+.drive,
+.capacity {
+  display: flex;
+  align-items: center;
+  color: #90a3bf;
+}
+
+.img-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.daily-amt {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.daily-amt div h5 {
+  color: #90a3bf;
+}
+
+.price-change {
+  display: flex;
+  align-items: center;
+}
+
+.recommended {
+  margin: 2rem;
+}
+
+.recommended-cars {
+  display: flex;
+  flex-direction: column;
+}
+
+.recommended-cars div div h4 {
+  color: #90a3bf;
+}
+
+.recommended-cars-img {
+  display: flex;
+  gap: 2rem;
+}
+
+.recommended-cars-img div img {
+  width: 10rem;
+  height: 14rem;
+}
+
+.rec-specification {
+  display: flex;
+  flex-direction: column;
+  justify-content: inherit;
+}
+
+.yp {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.pp {
+  display: flex;
+  gap: 2rem;
+}
+
+.show-more {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-head {
+  width: 70%;
+}
+
+.footer-head h1 {
+  color: var(--primary-color);
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  color: #90a3bf;
+  padding: 0;
+}
+
+.aline {
+    align-items: start;
+}
+
+.infos {
+  display: flex;
+  justify-content: space-around;
+}
