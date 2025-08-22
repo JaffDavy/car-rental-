@@ -34,6 +34,25 @@ body {
   border-radius: 50px;
 }
 
+.popular-cars-img img {
+  width: 18rem;
+  height: 15rem;
+}
+
+.first-hero-content div img {
+  height: 10rem;
+  align-items: center;
+}
+
+.recommended-cars-img div img {
+  width: 10rem;
+  height: 14rem;
+}
+
+.footer-head h1 {
+  color: var(--primary-color);
+}
+
 #mobile-header .profile div h1 {
   color: var(--primary-color);
 }
@@ -72,11 +91,6 @@ main {
 
 .hero-txt {
   padding: 1rem;
-}
-
-.first-hero-content div img {
-  height: 10rem;
-  align-items: center;
 }
 
 .first-hero-content {
@@ -181,11 +195,6 @@ button {
   border-radius: 20px;
 }
 
-.popular-cars-img img {
-  width: 18rem;
-  height: 15rem;
-}
-
 .specification {
   display: flex;
   justify-content: space-around;
@@ -237,11 +246,6 @@ button {
   gap: 2rem;
 }
 
-.recommended-cars-img div img {
-  width: 10rem;
-  height: 14rem;
-}
-
 .rec-specification {
   display: flex;
   flex-direction: column;
@@ -273,10 +277,6 @@ footer {
   width: 70%;
 }
 
-.footer-head h1 {
-  color: var(--primary-color);
-}
-
 .about {
   display: flex;
   flex-direction: column;
@@ -296,7 +296,7 @@ ul li {
 }
 
 .aline {
-    align-items: start;
+  align-items: start;
 }
 
 .infos {
