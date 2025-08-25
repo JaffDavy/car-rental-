@@ -174,7 +174,7 @@ button {
 
 .cool-cars {
   display: flex;
-  overflow: scroll;
+  overflow-x: scroll;
   gap: 1rem;
 }
 
@@ -302,4 +302,236 @@ ul li {
 .infos {
   display: flex;
   justify-content: space-around;
+}
+
+@media only screen and (min-width: 1024px) {
+  #mobile-header {
+    display: none;
+  }
+
+  #desktop-header {
+    display: contents;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header-nav {
+    display: flex;
+    gap: 40rem;
+  }
+
+  .search-area {
+    display: flex;
+    align-items: center;
+    gap: 7rem;
+    border: 1px solid #e3e3e3;
+    border-radius: 30px;
+    padding: 0.3rem;
+    width: 30rem;
+  }
+
+  #desktop-header div h1 {
+    color: var(--primary-color);
+  }
+
+  .search {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .header-icon {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .icon-border {
+    border: 1px solid #90a3bf;
+    border-radius: 500px;
+    height: 1.3rem;
+    padding: 1rem;
+  }
+
+  .profile-pic img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50px;
+  }
+
+  .main {
+    background-color: #90a3bf;
+  }
+
+  .hero-card {
+    display: flex;
+    justify-content: space-between;
+    height: 40rem;
+  }
+
+  .first-hero-content {
+    width: 45%;
+    height: 93%;
+  }
+
+  .first-hero-content div img {
+    width: 75%;
+    height: 55%;
+    margin-left: 10rem;
+  }
+
+  .first-hero-content .hero-txt h2 {
+    font-size: 3rem;
+  }
+
+  .first-hero-content .hero-txt p {
+    font-size: 1rem;
+  }
+
+  .first-hero-content .hero-txt {
+    width: 60%;
+  }
+
+  .second-hero-content {
+    display: contents;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary-color);
+    width: 45%;
+    height: 93%;
+    border-radius: 20px;
+    color: #fff;
+  }
+
+  .second-hero-content div img {
+    width: 75%;
+    height: 80%;
+    margin-left: 10rem;
+  }
+
+  .second-hero-content .hero-txt h2 {
+    font-size: 2.7rem;
+  }
+
+  .second-hero-content .hero-txt p {
+    font-size: 1rem;
+  }
+
+  .second-hero-content .hero-txt {
+    width: 45%;
+  }
+
+  .section2 {
+    display: flex;
+    margin: 1rem;
+  }
+
+  .swap {
+    height: 1.3rem;
+    display: flex;
+    align-self: center;
+  }
+
+  .form-group div h5 {
+    color: #90a3bf;
+  }
+
+  .input-field {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .border-right {
+    border-right: 1px solid #90a3bf;
+    padding-right: 6rem;
+  }
+
+  .cool-cars {
+    display: flex;
+    overflow-x: hidden;
+    justify-content: space-between;
+  }
+
+  .pop-car-card {
+    width: 20rem;
+  }
+
+  .recommended {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .recommended div div h4 {
+    color: #90a3bf;
+  }
+
+  .recommended-cars {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .yp {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 11rem;
+  }
+
+  .recommended-cars-img {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rec-specification {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .recommended-cars-img div img {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .foot {
+    display: flex;
+    border-bottom: 1px solid #90a3bf;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+    align-items: center;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+    align-items: center;
+  }
+
+  .aline ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .footer-foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .infos {
+    display: flex;
+    gap: 5rem;
+  }
 }
