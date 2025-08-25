@@ -473,7 +473,7 @@ ul li {
   .yp {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: wrap;
     gap: 11rem;
   }
 
